@@ -30,3 +30,9 @@ Asegúrate de tener instalados los siguientes paquetes en tu sistema:
 * **Arch Linux / Manjaro:**
   ```bash
   sudo pacman -S bind openbsd-netcat gawk coreutils
+* **Debian / Ubuntu**
+  ```bash
+  sudo apt update && sudo apt install dnsutils netcat-openbsd gawk coreutils
+* **Fedora / RHEL**
+  ```bash
+  sudo dnf install bind-utils nc gawk coreutils
